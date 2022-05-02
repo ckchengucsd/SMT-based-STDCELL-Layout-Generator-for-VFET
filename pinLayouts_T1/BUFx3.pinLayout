@@ -1,0 +1,51 @@
+a   PNR Testcase Generation::  DesignName = BUFx3
+a   Output File:
+a   /home1/eto10/PNR_VFET/pinLayouts_T1_OB/BUFx3.pinLayout
+a   Width of Routing Clip    = 5
+i   ===InstanceInfo===
+i   InstID Type Width
+i   insMM1_0 PMOS 1
+i   insMM1_1 PMOS 1
+i   insMM1_2 PMOS 1
+i   insMM0_0 PMOS 1
+i   insMM2_0 NMOS 1
+i   insMM3_0 NMOS 1
+i   insMM3_1 NMOS 1
+i   insMM3_2 NMOS 1
+i   ===PinInfo===
+i   PinID NetID InstID PinName PinDirection PinLength
+i   pin0 net0 insMM1_0 S s 1
+i   pin1 net1 insMM1_0 G s 1
+i   pin2 net2 insMM1_0 D s 1
+i   pin3 net0 insMM1_1 S t 1
+i   pin4 net1 insMM1_1 G t 1
+i   pin5 net2 insMM1_1 D t 1
+i   pin6 net0 insMM1_2 S t 1
+i   pin7 net1 insMM1_2 G t 1
+i   pin8 net2 insMM1_2 D t 1
+i   pin9 net0 insMM0_0 S t 1
+i   pin10 net3 insMM0_0 G s 1
+i   pin11 net1 insMM0_0 D t 1
+i   pin12 net4 insMM2_0 S s 1
+i   pin13 net3 insMM2_0 G t 1
+i   pin14 net1 insMM2_0 D t 1
+i   pin15 net4 insMM3_0 S t 1
+i   pin16 net1 insMM3_0 G t 1
+i   pin17 net2 insMM3_0 D t 1
+i   pin18 net4 insMM3_1 S t 1
+i   pin19 net1 insMM3_1 G t 1
+i   pin20 net2 insMM3_1 D t 1
+i   pin21 net4 insMM3_2 S t 1
+i   pin22 net1 insMM3_2 G t 1
+i   pin23 net2 insMM3_2 D t 1
+i   pin24 net0 ext VDD t -1 P
+i   pin25 net4 ext VSS t -1 P
+i   pin26 net3 ext A t -1 I
+i   pin27 net2 ext Y t -1 O
+i   ===NetInfo===
+i   NetID N-PinNet PinList
+i   net0 5PinNet pin24 pin9 pin6 pin3 pin0
+i   net1 8PinNet pin22 pin19 pin16 pin14 pin11 pin7 pin4 pin1
+i   net2 7PinNet pin27 pin23 pin20 pin17 pin8 pin5 pin2
+i   net3 3PinNet pin26 pin13 pin10
+i   net4 5PinNet pin25 pin21 pin18 pin15 pin12
